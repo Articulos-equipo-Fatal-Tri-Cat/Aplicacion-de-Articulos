@@ -14,7 +14,7 @@ import com.example.demo.controller.models.Lista;
 @Controller
 public class indexController {
 
-	@GetMapping ({"/indexl", "/,"})
+	@GetMapping ({"/indexl", "/,", ""})
 	public String index(Model model) {
 		model.addAttribute("titulo", "Bienvenidos al MERCADO FTC´s");
 		
